@@ -66,7 +66,7 @@ JavaScript frontend.
 ### 1️⃣ Clone Repository
 
 ``` bash
-git clone <your-repo-url>
+git clone <https://github.com/sleepyUjjal/simple-crud.git>
 cd taskhub/backend
 ```
 
@@ -148,11 +148,10 @@ Open:
 2.  Login to receive JWT access token
 3.  Add header to protected endpoints:
 
-```{=html}
-<!-- -->
+
 ```
     Authorization: Bearer <access_token>
-
+```
 ------------------------------------------------------------------------
 
 ## 📡 API Endpoints
