@@ -50,3 +50,8 @@ static/
 *.swp
 *.swo
 .DS_Store # macOS system files
+
+.env
+__pycache__/
+env/
+*.pyc
