@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+ENV/
+bin/
+lib/
+include/
+pip-log.txt
+pip-delete-this-arg.txt
+
+# Django-specific files
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+media/ # Add if your media files are user-uploaded and not part of the source code
+
+# Static files
+# Collected static files can be ignored if they are generated during deployment
+# (e.g., when running collectstatic on the server)
+static/ 
+
+# IDE-specific files and directories (optional, consider using a global gitignore for these)
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store # macOS system files
